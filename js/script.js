@@ -18,21 +18,21 @@ if (navigator.serviceWorker) {
 /**
  * This function updates the slider value.
  */
- function updateSliderValue(valueFromSlider) {
+function updateSliderValue(valueFromSlider) {
   document.getElementById("slider-value").innerHTML = valueFromSlider
 }
 
 /**
  * This function displays the slider value.
  */
- function myButtonClicked() {
-  buttonOnChecked = document.getElementById('flash1').checked
+function myButtonClicked() {
+  buttonOnChecked = document.getElementById("flash1").checked
 
   if (buttonOnChecked == true) {
     document.getElementById("radio-button-value").innerHTML =
-    "<p>Value is: On</p>"
+      "<p>Value is: On</p>"
   } else {
     document.getElementById("radio-button-value").innerHTML =
-    "<p>Value is: Off</p>"
+      "<p>Value is: Off</p>"
   }
 }
