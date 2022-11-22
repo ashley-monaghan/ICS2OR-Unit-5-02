@@ -27,13 +27,15 @@ function updateSliderValue(valueFromSlider) {
  * This function displays the slider value.
  */
 function myButtonClicked() {
-  buttonOnChecked = document.getElementById("Show Value").checked
+  let buttonPositiveChecked = document.getElementById("positive").checked
 
-  if (buttonOnChecked == true) {
+  if (buttonPositiveChecked == true) {
+   let randomNumber = Math.floor(Math.random() * 6) + 1
     document.getElementById("radio-button-value").innerHTML =
-      "<p>Value is: On</p>"
+      "Value is: " + randomNumber
   } else {
+    let randomNumber = Math.floor(Math.random() * -6) - 1
     document.getElementById("radio-button-value").innerHTML =
-      "<p>Value is: Off</p>"
+      "Value is: " + randomNumber
   }
 }
