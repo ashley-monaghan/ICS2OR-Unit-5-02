@@ -30,10 +30,10 @@ function myButtonClicked() {
   buttonOnChecked = document.getElementById("Show Value").checked
 
   if (buttonOnChecked == true) {
-    document.getElementById("radio-button-value").innerHTML =
+    document.getElementById("radio-button").innerHTML =
       "<p>Value is: On</p>"
   } else {
-    document.getElementById("radio-button-value").innerHTML =
+    document.getElementById("radio-button").innerHTML =
       "<p>Value is: Off</p>"
   }
 }
