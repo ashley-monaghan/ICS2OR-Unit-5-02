@@ -9,12 +9,14 @@
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register(
-    "/ICS2O-Unit5-01-HTML-Slider-Example/sw.js",
+    "/ICS2OR-Unit-5-02/sw.js",
     {
-      scope: "/ICS2O-Unit5-01-HTML-Slider-Example/",
+      scope: "/ICS2OR-Unit-5-02/",
     }
   )
 }
+
+
 
 /**
  * This function updates the slider value.
