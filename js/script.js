@@ -4,15 +4,16 @@
 // Created on: Nov 2022
 // This file contains the JS functions for index.html
 
-"use strict"
-
 /**
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2OR-Unit-5-02/sw.js", {
-    scope: "/ICS2OR-Unit-5-02/",
-  })
+  navigator.serviceWorker.register(
+    "/ICS2O-Unit5-01-HTML-Slider-Example/sw.js",
+    {
+      scope: "/ICS2O-Unit5-01-HTML-Slider-Example/",
+    }
+  )
 }
 
 /**
